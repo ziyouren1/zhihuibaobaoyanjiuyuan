@@ -1,0 +1,14 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: '当前页'}}"/>
+</view>
+ <view class="btn-area">
+    <navigator url="../navigator/button?title=navigate" hover-class="navigator-hover">
+      <button type="default">小测试跳转到新页面</button>
+    </navigator>
+    <navigator url="../input/input?title=redirect" redirect hover-class="other-navigator-hover">
+      <button type="default">智慧测试在当前页打开</button>
+    </navigator>
+  </view>

@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/input/input",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/navigator/navigate",
+    "pages/navigator/redirect",
+    "pages/navigator/button"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "95559智慧宝宝",
+    "navigationBarTextStyle":"black"
+  }
+}

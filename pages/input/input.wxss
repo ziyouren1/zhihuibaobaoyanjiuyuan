@@ -1,0 +1,40 @@
+@import "../common/lib/weui.wxss";
+
+.page-section{
+  margin-bottom: 0rpx;
+}
+.text-box{
+  margin-bottom: 10rpx;
+  padding: 40rpx 0;
+  display: flex;
+  min-height: 30rpx;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30rpx;
+  color: #353535;
+  line-height: 2em;
+}
+.page-foot{
+  margin: 100rpx 0 30rpx 0;
+  text-align: center;
+  color: #1aad19;
+  font-size: 0;
+}
+.icon-foot{
+  width: 152rpx;
+  height: 123rpx;
+}
+.page-section-ctn {
+  text-align: center;
+  padding-left:5px;
+  padding-right: 5px;
+}
+.page-section-title{
+  text-align: center;
+  padding-left:5px;
+  padding-right: 5px;
+}
+.image {
+  margin-top: 30rpx;
+}
